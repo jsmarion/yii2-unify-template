@@ -1,0 +1,27 @@
+{
+    "name": "jsmarion/yii2-template-unify",
+    "description": "Unify bootstrap template",
+    "keywords": ["template", "yii2", "unify", "bootstrap"],
+    "homepage": "http://marion.ch/",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "http://marion.ch",
+        "wiki": "http://marion.ch",
+        "source": "http://marion.ch"
+    },
+    "authors": [
+        {
+            "name": "John Marion",
+            "email": "johnmarion@mail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "jsmarion\\template\\unify\\": ""
+        }
+    }
+}
